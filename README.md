@@ -2,8 +2,6 @@
 
 basic CRUD project with Next.js
 
-## Set Environment Variable
-
 ## Getting Started
 
 1. Set Environment Variable
