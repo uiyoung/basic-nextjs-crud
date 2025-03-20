@@ -6,7 +6,7 @@ export default async function Navbar() {
   const data = await response.json();
 
   return (
-    <ol className='mb-3 outline-gray-800 outline max-w-64'>
+    <ol className='flex space-x-4 m-2'>
       {data.map((item: { id: string; title: string }) => (
         <li key={item.id}>
           <Link href={`/read/${item.id}`}>{item.title}</Link>

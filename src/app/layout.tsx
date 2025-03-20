@@ -4,6 +4,8 @@ import './globals.css';
 import Link from 'next/link';
 import Navbar from '@/components/Navbar';
 import Control from '@/components/Control';
+import { Separator } from "@/components/ui/separator"
+
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -37,6 +39,7 @@ export default function RootLayout({
         </h1>
 
         <Navbar />
+        <Separator />
 
         {children}
         <Control />
